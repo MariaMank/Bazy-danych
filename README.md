@@ -1,7 +1,6 @@
-# Bazy-danych-przestrzennych (Saptial Data Bases)
+# Bazy danych przestrzennych 
 Projekt końcowy z przedmiotu Bazy i Modele Danych Przestrzennych
 
-Eng below
 
 Repozytorium zawiera dwa pliki.
 W pliku data base creation znajduje się kod w języku PostgreSQL z wykorzystaniem PostGIS umożliwiający utworzenie części bazy BDOT500. Kod tworzy między innymi większość z tabel z poniższego schematu, a także wszystkie powiązane z nimi słowniki i klasy po których dziedziczą. W pliku tym znajduje się także implementacja mechanizmów (trigger), które po wykryciu próby aktualizacji w tabeli bdz_tor sprawdzą, czy aktualizacja dotyczy atrybutu poziom. Jeżeli tak, to w dodatkowy atrybut x_zmiana wprowadzona będzie odpowiednio wartość ‘w górę’ lub ‘w dół’.
